@@ -6,8 +6,8 @@ on:
         branches: [ main ]
       workflow_dispatch:
 
-    jobs:
-      sample:
+jobs:
+   sample:
 
         # MSDO runs on windows-latest and ubuntu-latest.
         # macos-latest supporting coming soon
