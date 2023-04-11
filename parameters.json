@@ -2,41 +2,11 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "diskName": {
-            "value": "az104-03a-disk1"
+        "networkSecurityGroupName": {
+            "value": "DevSecOpsSV"
         },
         "location": {
             "value": "japaneast"
-        },
-        "sku": {
-            "value": "Standard_LRS"
-        },
-        "diskSizeGb": {
-            "value": 32
-        },
-        "sourceResourceId": {
-            "value": ""
-        },
-        "sourceUri": {
-            "value": ""
-        },
-        "sourceImageVersionId": {
-            "value": ""
-        },
-        "osType": {
-            "value": ""
-        },
-        "createOption": {
-            "value": "empty"
-        },
-        "hyperVGeneration": {
-            "value": ""
-        },
-        "diskEncryptionSetType": {
-            "value": "EncryptionAtRestWithPlatformKey"
-        },
-        "networkAccessPolicy": {
-            "value": "AllowAll"
         }
     }
 }
