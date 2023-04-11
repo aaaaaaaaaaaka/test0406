@@ -1,8 +1,8 @@
 {
   "Type" : "AWS::EC2::SecurityGroup",
   "Properties" : {
-      "GroupDescription" : DevSecOps,
-      "GroupName" : DevSecOpsSG,
+      "GroupDescription" : DevSecOps1,
+      "GroupName" : DevSecOpsSG1,
       "SecurityGroupIngress" : [ {"IpProtocol" : "tcp",
       "FromPort" : 80,
       "ToPort" : 80,
